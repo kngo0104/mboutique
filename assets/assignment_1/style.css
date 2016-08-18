@@ -1,0 +1,143 @@
+/*HEADER*/
+header {
+    background-color: rgba(255, 250, 190, 1);
+    width: 1000px;
+    height: 72px;
+}
+
+header ul {
+    float: right;
+    padding-right: 10px;
+    padding-top: 15px;
+
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    color: #515151;
+    width: 10vw;
+}
+
+header li:hover {
+    color: #d42551;
+}
+
+header img {
+    width: 16%;
+    float: left;
+    padding-left: 40px;
+    padding-top: 21px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #df5277;
+    height: 80px;
+    width: 1000px;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+#mail {
+    float: left;
+    padding-top: 15px;
+}
+
+#follow {
+    float: right;
+    padding-top: 15px;
+}
+
+#phone {
+    text-align: center;
+    padding-right: 140px;
+    padding-top: 20px;
+}
+
+/*Welcome Page*/
+
+#welcome_main {
+    margin-left: 150px;
+}
+
+#welcome_picture img {
+    width: 1000px;
+    height: 400px;
+}
+
+#macarons_image {
+    float: left;
+    padding-top: 190px;
+}
+
+#welcome_desc {
+    float: right;
+    width: 50%;
+    padding-top: 80px;
+    padding-right: 290px;
+}
+
+#welcome_desc h2 {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: #6a6969;
+}
+
+#welcome_desc p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    color: #6a6969;
+
+}
+
+#welcome_bottom {
+    padding-top: 600px;
+}
+
+#welcome_bottom tr {
+
+}
+
+#welcome_bottom td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    background-color: #fffabe;
+    border-style: none solid;
+    border-color: white;
+    height: 33px;
+    width: 138px;
+}
+
+#welcome_bottom #coconut {
+    color: white;
+    background-color: #824603;
+}
+
+#welcome_bottom #vanilla {
+    color: white;
+    background-color: #df5277;
+}
+
+#welcome_bottom #lemon {
+    color: white;
+    background-color: #a2304e;
+}
+
+#welcome_bottom #almond {
+    color: white;
+    background-color: #c39005;
+}
+
+#welcome_bottom table {
+    border-collapse: collapse;
+
+}
+

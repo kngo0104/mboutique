@@ -1,0 +1,290 @@
+/*HEADER*/
+header {
+    background-color: rgba(255, 250, 190, 1);
+    width: 1000px;
+    height: 72px;
+}
+
+header ul {
+    float: right;
+    padding-right: 10px;
+    padding-top: 15px;
+
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    color: #515151;
+    width: 10vw;
+}
+
+header li:hover {
+    color: #d42551;
+}
+
+header img {
+    width: 16%;
+    float: left;
+    padding-left: 40px;
+    padding-top: 21px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #df5277;
+    height: 80px;
+    width: 1000px;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+#mail {
+    float: left;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+#follow {
+    float: right;
+    padding-top: 15px;
+    padding-right: 70px;
+}
+
+#phone {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*Welcome Page*/
+
+#main {
+    margin-left: 190px;
+}
+
+#welcome_picture img {
+    width: 1000px;
+    height: 400px;
+}
+
+#macarons_image {
+    float: left;
+    padding-top: 190px;
+}
+
+#welcome_desc {
+    float: right;
+    width: 50%;
+    padding-top: 80px;
+    padding-right: 290px;
+}
+
+#welcome_desc h2 {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: #6a6969;
+}
+
+#welcome_desc p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    color: #6a6969;
+
+}
+
+#welcome_bottom {
+    padding-top: 600px;
+}
+
+#welcome_bottom tr {
+
+}
+
+#welcome_bottom td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    background-color: #fffabe;
+    border-style: none solid;
+    border-color: white;
+    height: 33px;
+    width: 138px;
+}
+
+#welcome_bottom #coconut {
+    color: white;
+    background-color: #824603;
+}
+
+#welcome_bottom #vanilla {
+    color: white;
+    background-color: #df5277;
+}
+
+#welcome_bottom #lemon {
+    color: white;
+    background-color: #a2304e;
+}
+
+#welcome_bottom #almond {
+    color: white;
+    background-color: #c39005;
+}
+
+#welcome_bottom table {
+    border-collapse: collapse;
+
+}
+
+/*OUR MACARONS PAGE*/
+
+#our_mac_img {
+    width: 1000px;
+    height: 400px;
+}
+#our_mac_desc {
+    width: 960px;
+    padding-left: 50px;
+}
+
+#our_mac_desc h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    margin-top: 65px;
+    padding-bottom: 30px;
+}
+
+#our_mac_desc p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+
+#desc {
+    background-image: url('images/our-macarons-background.png');
+    background-position: 5px;
+}
+
+#our_mac_list h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    padding-bottom: 30px;
+    margin-left: 35px;
+}
+
+#our_mac_list ul {
+    margin-left: 35px;
+}
+
+#our_mac_list li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+
+#our_mac_list p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    width: 960px;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Gifts and Parties Page*/
+
+#gp_main {
+    background-image: url('images/gifts-parties-background.png');
+    background-position: 5px;
+}
+
+#gp_image {
+    width: 1000px;
+    height: 400px;
+}
+
+#gp_desc {
+    padding-left: 50px;
+    width: 960px;
+}
+
+#gp_desc h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+    margin-top: 65px;
+    padding-bottom: 30px;
+}
+
+#gp_desc p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    padding-bottom: 30px;
+}
+
+span {
+    color: #df5277;
+}
+
+#gp_details {
+    padding-left: 50px;
+    width: 960px;
+}
+
+#gp_details h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+    padding-bottom: 30px;
+}
+
+#gp_details p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    padding-bottom: 20px;
+}
+
+#gp_details ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    padding-bottom: 30px;
+}
+
+#gp_party_tower {
+    padding-left: 50px;
+    width: 960px;
+}
+
+#gp_party_tower h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+    padding-bottom: 30px;
+}
+
+#gp_party_tower p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    padding-bottom: 20px;
+    width: 400px;
+}
+
+#gp_party_tower ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    padding-bottom: 30px;
+}
