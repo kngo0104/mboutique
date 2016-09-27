@@ -1,25 +1,22 @@
 /*HEADER*/
 header {
     background-color: rgba(255, 250, 190, 1);
-    width: 1000px;
+    width: 85%;
     height: 72px;
 }
 
 header ul {
-    float: right;
-    padding-right: 10px;
-    padding-top: 15px;
+    padding-top: 30px;
 
 }
 
 header li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 20px;
     font-size: 16px;
     font-family: Helvetica, sans-serif;
     color: #515151;
-    width: 10vw;
+    margin-left: 130px;
 }
 
 header li:hover {
@@ -37,7 +34,7 @@ header img {
 footer {
     background-color: #df5277;
     height: 80px;
-    width: 1000px;
+    width: 85%;
     color: white;
     font-size: 14px;
     font-family: Helvetica, sans-serif;
@@ -63,24 +60,20 @@ footer {
 /*Welcome Page*/
 
 #main {
-    margin-left: 190px;
+    width: 100%;
 }
 
 #welcome_picture img {
-    width: 1000px;
+    width: 85%;
     height: 400px;
 }
 
 #macarons_image {
-    float: left;
     padding-top: 190px;
 }
 
 #welcome_desc {
-    float: right;
-    width: 50%;
-    padding-top: 80px;
-    padding-right: 290px;
+    width: 60%;
 }
 
 #welcome_desc h2 {
@@ -102,8 +95,8 @@ footer {
     padding-top: 600px;
 }
 
-#welcome_bottom tr {
-
+#welcome_bottom table {
+    margin-left: 60px;
 }
 
 #welcome_bottom td {
@@ -205,6 +198,7 @@ footer {
 #gp_main {
     background-image: url('images/gifts-parties-background.png');
     background-position: 5px;
+    background-repeat: no-repeat;
 }
 
 #gp_image {
